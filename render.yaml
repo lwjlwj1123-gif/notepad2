@@ -5,7 +5,6 @@ services:
     plan: free
     buildCommand: npm install && npm run build
     startCommand: npm start
-    nodeVersion: 20.11.0
     envVars:
       - key: NODE_ENV
         value: production
